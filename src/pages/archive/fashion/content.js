@@ -20,7 +20,7 @@ class ArchiveFashionCollectionsContent extends Component {
         return (
             <Body>
                 <Navigation />
-                {this.state.showView === false ? 
+                {this.state.showView === false ?
                 <React.Fragment>
                     <h1 className="title2">{ImageContent[n].title}</h1>
                     <PortfolioContent>
@@ -38,16 +38,16 @@ class ArchiveFashionCollectionsContent extends Component {
                     <h1 className="title2">{ImageContent[n].title}</h1>
                     <PortfolioContent>
                         <div className="wrapper2">
-                            {ImageContent[n].id === "figtree_drop1" && this.state.type === "editorial" ? 
+                            {ImageContent[n].id === "figtree_drop1" && this.state.type === "editorial" ?
                             <ImageBox3 className="fit" style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/1.JPG`)})`}} /> : null}
 
                             {ImageContent[n].sub_images[`${this.state.type}`].map((image,index)=>{
                                 return (
-                                    <ImageBox3 key={index} style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/${image}.JPG`)})`}} />
+                                    <ImageBox3 key={index} style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/${image}.jpg`)})`}} />
                                 )
                             })}
 
-                            {ImageContent[n].id === "figtree_drop1" && this.state.type === "editorial" ? 
+                            {ImageContent[n].id === "figtree_drop1" && this.state.type === "editorial" ?
                             <ImageBox3 className="fit" style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/5.JPG`)})`}} /> : null}
                         </div>
                     </PortfolioContent>

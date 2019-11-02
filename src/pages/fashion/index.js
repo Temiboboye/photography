@@ -13,7 +13,7 @@ function Fashion(props) {
                 <div className="wrapper3">
                     {Fashion_Route.map((r,i)=>{
                         return (
-                            <ImageBox key={i} style={{backgroundColor: '#FAF57F' }} onClick={()=>props.history.push(`/portfolio/fashion/${r.id}`)}>
+                            <ImageBox key={i} style={{backgroundColor: '#FFFFFF', border: '1px solid #000000' }} onClick={()=>props.history.push(`/portfolio/fashion/${r.id}`)}>
                                 <p>FASHION {r.title.toUpperCase()}</p>
                             </ImageBox>
                         )

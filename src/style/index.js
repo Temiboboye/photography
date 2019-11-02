@@ -103,7 +103,7 @@ export const HomeContent = styled.div`
     justify-content: center;
     padding: 0 20px;
     background-color: #FE1E03 !important;
-    background: url(${require('../assets/images/featuredart2.jpg')});
+    background: url(${require('../assets/images/featuredart2.png')});
     background-position: left bottom;
     background-size: 50%;
 
@@ -155,7 +155,7 @@ export const AboutContent = styled.div`
 export const AboutImage = styled.div`
     flex-basis: 25%;
     height: 511.37px;
-    background: url(${require('../assets/images/person.jpeg')});
+    background: url(${require('../assets/images/person.jpg')});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,9 +376,10 @@ export const PortfolioContent2 = styled.div`
 `
 
 export const ImageBox = styled.div`
-    flex-basis: 31%;
+    flex-basis: 48%;
     height: 248px;
-    background-color: rgb(250, 245, 127);
+    /* background-color: rgb(250, 245, 127); */
+    border: 1px solid #000000;
     position: relative;
     display: flex;
     align-items: center;
@@ -447,9 +448,10 @@ export const ImageBox3b = styled.div`
 `
 
 export const ImageBox5 = styled.div`
-    flex-basis: 48.5%;
+    flex-basis: 48%;
     height: 248px;
-    background-color: rgb(250, 245, 127);
+    /* background-color: rgb(250, 245, 127); */
+    border: 1px solid #000000;
     position: relative;
     display: flex;
     align-items: center;

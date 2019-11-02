@@ -13,7 +13,7 @@ function ArchiveFashionCollections(props) {
                 <div className="wrapper4">
                     {ImageContent.map((image,index)=>{
                         return (
-                            <ImageBox3 onClick={()=>props.history.push(`/archive/fashion/${index}`)} key={index} style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${image.f_image}.png`)})`}} />
+                            <ImageBox3 onClick={()=>props.history.push(`/archive/fashion/${index}`)} key={index} style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${image.f_image}.jpg`)})`}} />
                         )
                     })}
                 </div>

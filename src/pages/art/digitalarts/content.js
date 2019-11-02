@@ -14,7 +14,7 @@ class DigitalArtsContent extends Component {
                 <PortfolioContent>
                     <div className="wrapper2">
                         {ImageContent[n].images.map((image,index)=>{
-                            if (n == 0) {
+                            if (n === 0) {
                                 return (
                                     <ImageBox3 key={index} style={{backgroundImage: `url(${require(`../../../assets/images/arts/digitalarts/${folder}/${image}.jpg`)})`,border: '1px solid #333',backgroundPosition: '50%'}} />
                                 )
