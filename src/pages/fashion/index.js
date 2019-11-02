@@ -1,5 +1,5 @@
 import React from 'react';
-import { Body, PortfolioContent, ImageBox } from '../../style';
+import { Body, PortfolioContent, ImageBox, Button1 } from '../../style';
 import Navigation from '../../components/navigation';
 import { Link } from 'react-router-dom';
 import Fashion_Route from './route';
@@ -15,6 +15,7 @@ function Fashion(props) {
                         return (
                             <ImageBox key={i} style={{backgroundColor: '#FFFFFF', border: '1px solid #000000' }} onClick={()=>props.history.push(`/portfolio/fashion/${r.id}`)}>
                                 <p>FASHION {r.title.toUpperCase()}</p>
+
                             </ImageBox>
                         )
                     })}

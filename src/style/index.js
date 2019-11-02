@@ -175,10 +175,12 @@ export const AboutText = styled.div`
     @media only screen and (max-width: 778px) {
         flex-basis: 100%;
         padding: 0;
+        font-size:  16px;
     }
     p {
         margin: 0;
         margin-bottom: 30px;
+
     }
     .button-group {
         width: 100%;
