@@ -13,7 +13,7 @@ function Content2018() {
                 <div className="wrapper2">
                     {imagelist.map((image,index)=>{
                         return (
-                            <ImageBox4 key={index} style={{backgroundImage: `url(${require(`../../assets/images/photography/2018/${image}.JPG`)})`}} />
+                            <ImageBox4 key={index} style={{backgroundImage: `url(${require(`../../assets/images/photography/2018/${image}.jpg`)})`}} />
                         )
                     })}
                 </div>
