@@ -13,8 +13,8 @@ const ImageContent = [
     },
     {
         "f_image": 3,
-        "title": "HUNCHO",
-        "id": "huncho",
+        "title": "PERUZZI",
+        "id": "peruzzi",
         "images": [1,2,3,4]
     },
     {

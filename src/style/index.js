@@ -85,6 +85,8 @@ export const Button1 = styled.button`
         width: 170px;
         height: 45px;
         font-size: 15px;
+        position: absolute;
+        top: 50%;
     }
 `
 
@@ -409,7 +411,7 @@ export const ImageBox = styled.div`
 `
 
 export const ImageBox3 = styled.div`
-    flex-basis: 49.7%;
+    flex-basis: 49.5%;
     height: 601px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -423,13 +425,15 @@ export const ImageBox3 = styled.div`
     @media only screen and (max-width: 670px) {
         margin-bottom: 3px;
         height: 301px;
+        flex-basis: 100%;
     }
 `
 
 export const ImageBox3b = styled.div`
     flex-basis: 49.5%;
     height: 601px;
-    background-color: rgb(250, 245, 127);
+    /* background-color: rgb(250, 245, 127); */
+    border: 1px solid #000000;
     position: relative;
     display: flex;
     align-items: center;
@@ -444,6 +448,7 @@ export const ImageBox3b = styled.div`
     @media only screen and (max-width: 670px) {
         margin-bottom: 3px;
         height: 301px;
+        flex-basis: 100%;
     }
 `
 
@@ -500,6 +505,7 @@ export const ImageBox4 = styled.div`
     @media only screen and (max-width: 670px) {
         margin-bottom: 7px;
         height: 193px;
+        flex-basis: 100%;
     }
 `
 

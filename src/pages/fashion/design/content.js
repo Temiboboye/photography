@@ -20,7 +20,7 @@ class FashionDesignContent extends Component {
         return (
             <Body>
                 <Navigation />
-                {this.state.showView === false ? 
+                {this.state.showView === false ?
                 <React.Fragment>
                     <h1 className="title2">{ImageContent[n].title}</h1>
                     <PortfolioContent>
