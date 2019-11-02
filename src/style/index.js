@@ -426,7 +426,7 @@ export const ImageBox3 = styled.div`
     cursor: pointer;
     @media only screen and (max-width: 670px) {
         margin-bottom: 3px;
-        height: 301px;
+        height: 100vh;
         flex-basis: 100%;
     }
 `
@@ -506,7 +506,8 @@ export const ImageBox4 = styled.div`
     cursor: pointer;
     @media only screen and (max-width: 670px) {
         margin-bottom: 7px;
-        height: 193px;
+       /* height: 193px; */
+       height: 100vh;
         flex-basis: 100%;
     }
 `

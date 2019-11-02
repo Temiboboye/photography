@@ -1,5 +1,5 @@
 import React from 'react';
-import { Body, PortfolioContent, ImageBox, Button1 } from '../../style';
+import { Body, PortfolioContent, ImageBox, } from '../../style';
 import Navigation from '../../components/navigation';
 import { Link } from 'react-router-dom';
 import Fashion_Route from './route';
