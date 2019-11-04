@@ -8,7 +8,7 @@ function DigitalArtsCollections(props) {
     return (
         <Body>
             <Navigation />
-            <h1 className="pagination"><Link to="/portfolio">PORTFOLIO</Link> / <Link to="/portfolio/fashion">ARTS</Link> / DIGITAL ART</h1>
+            <h1 className="pagination"><Link to="/portfolio">PORTFOLIO</Link> / <Link to="/portfolio/fashion">ART</Link> / DIGITAL ART</h1>
             <PortfolioContent>
                 <div className="wrapper2">
                     {ImageContent.map((image,index)=>{

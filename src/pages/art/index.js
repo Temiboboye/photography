@@ -8,7 +8,7 @@ function Arts(props) {
     return (
         <Body>
             <Navigation />
-            <h1 className="title"><Link to="/portfolio">PORTFOLIO</Link> / ARTS</h1>
+            <h1 className="title"><Link to="/portfolio">PORTFOLIO</Link> / ART</h1>
             <PortfolioContent>
                 <div className="wrapper">
                     {Arts_Route.map((r,i)=>{

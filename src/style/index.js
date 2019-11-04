@@ -85,7 +85,7 @@ export const Button1 = styled.button`
         width: 170px;
         height: 45px;
         font-size: 15px;
-        position: absolute;
+        /* position: absolute; */
         top: 50%;
     }
 `
@@ -399,7 +399,7 @@ export const ImageBox = styled.div`
         margin-bottom: 5px;
     }
     span {
-        margin: 0;
+        margin: 0 auto;
         font-size: 14px;
         color: #333;
         text-align: center;
@@ -426,7 +426,7 @@ export const ImageBox3 = styled.div`
     cursor: pointer;
     @media only screen and (max-width: 670px) {
         margin-bottom: 3px;
-        height: 100vh;
+        height: 300px;
         flex-basis: 100%;
     }
 `

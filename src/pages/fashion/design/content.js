@@ -25,7 +25,7 @@ class FashionDesignContent extends Component {
                     <h1 className="title2">{ImageContent[n].title}</h1>
                     <PortfolioContent>
                         <div className="wrapper">
-                            <ImageBox3b onClick={()=>this._changeView("clothing")}>
+                            <ImageBox3b>
                                 <h1>FASHION DESIGN</h1>
                             </ImageBox3b>
                         </div>

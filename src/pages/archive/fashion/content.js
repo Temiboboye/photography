@@ -39,7 +39,7 @@ class ArchiveFashionCollectionsContent extends Component {
                     <PortfolioContent>
                         <div className="wrapper2">
                             {ImageContent[n].id === "figtree_drop1" && this.state.type === "editorial" ?
-                            <ImageBox3 className="fit" style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/1.JPG`)})`}} /> : null}
+                            <ImageBox3 className="fit" style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/1.jpg`)})`}} /> : null}
 
                             {ImageContent[n].sub_images[`${this.state.type}`].map((image,index)=>{
                                 return (
@@ -48,7 +48,7 @@ class ArchiveFashionCollectionsContent extends Component {
                             })}
 
                             {ImageContent[n].id === "figtree_drop1" && this.state.type === "editorial" ?
-                            <ImageBox3 className="fit" style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/5.JPG`)})`}} /> : null}
+                            <ImageBox3 className="fit" style={{backgroundImage: `url(${require(`../../../assets/images/fashion/collections/${folder}/${this.state.type}/5.jpg`)})`}} /> : null}
                         </div>
                     </PortfolioContent>
                 </React.Fragment>
