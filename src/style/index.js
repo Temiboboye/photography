@@ -96,6 +96,49 @@ Button1.defaultProps = {
     "stroke": "#FFFFFF"
 }
 
+
+export const Button3 = styled.button`
+    position: absolute;
+    width: ${props=>props.width};
+    height: ${props=>props.height};
+    border: 2px solid ${props=>props.stroke};
+    background: transparent;
+    color: ${props=>props.stroke};
+    outline: none;
+    font-family: 'Niramit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    bottom: 5%;
+    left: 25%;
+
+    :hover {
+        transition: .2s ease-in-out;
+        background-color: rgba(0,0,0,0.2);
+    }
+    @media only screen and (max-width: 464px) {
+        width: 170px;
+        height: 45px;
+        font-size: 15px;
+        bottom: 5%;
+    }
+`
+
+Button3.defaultProps = {
+    "width": "200px",
+    "height": "59.2px",
+    "stroke": "#FFFFFF"
+}
+
+export const ButtonContainer = styled.div`
+    display: inline-block;
+    position:relative;
+    flex-basis: 49.5%;
+    @media only screen and (max-width: 600px) {
+        flex-basis: 100%;
+    }
+
+`
 // Home Styles
 
 export const HomeContent = styled.div`
@@ -426,7 +469,8 @@ export const ImageBox3 = styled.div`
     cursor: pointer;
     @media only screen and (max-width: 670px) {
         margin-bottom: 3px;
-        height: 300px;
+         height: 300px;
+        height: 600px;
         flex-basis: 100%;
     }
 `

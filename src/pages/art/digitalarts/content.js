@@ -20,7 +20,7 @@ class DigitalArtsContent extends Component {
                                 )
                             }
                             return (
-                                <ImageBox3 key={index} style={{backgroundImage: `url(${require(`../../../assets/images/arts/digitalarts/${folder}/${image}.jpg`)})`}} />
+                                <ImageBox3 key={index} style={{backgroundImage: `url(${require(`../../../assets/images/arts/digitalarts/${folder}/${image}.jpg`)})`,border: '1px solid #000', height: '700px'}} />
                             )
                         })}
                     </div>

@@ -36,7 +36,7 @@ export default class Navigation extends Component {
                         <Link to="/connect" className="last-link">CONNECT</Link>
                         <div className="social">
                             <a href="https://www.instagram.com/isvisrvel/"><img src={require('../assets/images/social/ig.svg')} alt="IG" /></a>
-                            <a href="https://vsco.co/isvisrvel/images/1"><img src={require('../assets/images/social/2.svg')} alt="2" /></a>
+                            <a href="https://vsco.co/isvisrvel/images/1/"><img src={require('../assets/images/social/2.svg')} alt="2" /></a>
                             <a href="https://www.behance.net/israelisa/"><img src={require('../assets/images/social/behance.svg')} alt="behance" /></a>
                             <a href="mailto:isaisrael@tvstemvkers.com"><img src={require('../assets/images/social/email.svg')} alt="email" /></a>
                         </div>
